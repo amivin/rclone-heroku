@@ -20,7 +20,7 @@ cd rclone
 wget -q $DOWNLOAD_URL
 unzip -qqj $FILE.zip
 mv $FILE/* .
-rm -rf $FILE
+rm -rf $FILE.zip
 
 echo "exporting PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/rclone.sh"
