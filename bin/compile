@@ -19,7 +19,6 @@ mkdir -p rclone
 cd rclone
 wget -q $DOWNLOAD_URL
 unzip -qqj $FILE.zip
-mv $FILE/* .
 rm -rf $FILE.zip
 
 echo "exporting PATH" | indent
